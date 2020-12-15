@@ -1,0 +1,29 @@
+#home {
+  background-color: #f2f2f2;
+
+  .home-inner {
+    padding: 150px 0;
+    display: grid;
+    align-items: center;
+    gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+
+    .home-inner_start {
+      color: #211c1c;
+
+      h1 {
+        font-size: 72px;
+      }
+
+      p {
+        margin-top: 20 px;
+        font-size: 24px;
+        line-height: 1.5;
+      }
+    }
+
+    .home-inner_end {
+      height: 100%;
+    }
+  }
+}
